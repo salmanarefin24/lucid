@@ -1,0 +1,754 @@
+/*==========================
+ Font Family Source Sans Pro
+ ===========================*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+
+/*=========
+ Gloval CSS
+==========*/
+body{
+  	font-family: 'Source Sans Pro', sans-serif;
+}
+ul{
+  	padding:0;
+  	margin: 0;
+}
+li{
+  	list-style: none;
+}
+a{
+  	text-decoration: none;
+}
+
+
+/*============
+Header Section
+==============*/
+header{
+	background: url(../img/hero-section-img.png) no-repeat center top;
+	background-size: cover;
+}
+.logo{
+	margin-top: -35px;
+}
+.navbar>.container-fluid{
+	padding:0;
+}
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show>.nav-link {
+	
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.4s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #008ed6;
+}
+.hover-underline{
+	visibility: hidden;
+	padding: 0;
+	text-align: center;
+	color:  #008ed6;
+}
+.navbar-light .navbar-nav .nav-link:hover .hover-underline,
+.navbar-light .navbar-nav .nav-link.active .hover-underline{
+	visibility: visible;
+}
+header h6{
+    color: #008ed6;
+    padding-top: 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+header h1{
+	color: #fff;
+    font-size: 45px;	
+}
+header p{
+    color: #999999;
+    padding: 20px 0;
+    font-size: 19px;	
+}
+.btn-dwonload{
+	background: none;
+    border: 1px solid #47464d;
+    padding: 10px 23px;
+    text-transform: uppercase;
+    color: #fff;
+    word-spacing: 2px;
+    border-radius: 4px;
+	margin: 45px 20px 0px 0px;
+    transition: 0.5s ease-in-out;
+}
+.btn-dwonload:hover{
+	background:#008ed6;
+	color: #fff;
+}
+.header-img{
+    display: block;
+    width: 325px;
+    margin: 17px auto;
+}
+
+
+/*===========
+ Hero Section 
+ ============*/
+.hero-section{
+	padding: 75px 0;
+}
+.hero-section h6{
+	color: #008ed6;
+	text-align: center;
+	font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.hero-section h2{
+	color: #1a1a1a;
+	text-align: center;
+	font-size: 36px;
+    font-weight: 600;
+}
+.desh-border{
+    text-align: center;
+    font-size: 22px;
+    color: #008ed6;	
+}
+.hero-item{
+	padding: 50px 0;
+}
+.hero-item i{
+	display: block;
+	margin:0 auto;
+}
+.hero-item .fa{
+	height: 65px;
+    width: 65px;
+    line-height: 62px;
+    text-align: center;
+    border: 2px solid #e6e6e6;
+    border-radius: 50px;
+    font-size: 25px;
+    transition: 0.5s ease-in-out;
+}
+.hero-item:hover .fa{
+	color: #fff;
+	background: #008ed6;	
+}
+.hero-item h4{
+	text-align: center;
+    color: #1a1a1a;
+    font-weight: 500;
+    padding: 10px 0 0;
+}
+.hero-item:hover h4{
+    color: #008ed6; 
+}
+.hero-item p{
+	color: #999999;
+    font-size: 19px;
+    text-align: center;
+}
+
+
+/*==============
+ Details Section 
+ ===============*/
+.details-section{
+	padding: 75px 0;
+}
+.details-section img{
+	display: block;
+    width: 325px;
+    margin: 0 auto;
+}
+.details-section h6{
+	padding: 30px 0 0;
+	color: #008ed6;
+	font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.details-section h2{
+	color: #1a1a1a;
+	font-size: 36px;
+    font-weight: 600;
+}
+.desh-border-2{
+	font-size: 22px;
+    color: #008ed6;
+}
+.details-section p{
+	color: #999999;
+    font-size: 19px;
+}
+.details-section ul{
+	padding: 0 0 12px;
+}
+.details-section ul li{
+	display: inline;
+
+}
+.details-section ul li a .fa{
+    padding-right: 10px;
+    color: #008ed6;
+    font-size: 18px;
+}
+.details-section ul li a{
+    color: #1b1b1b;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.4s ease-in-out;
+}
+.details-section ul:hover li a{
+	padding-left: 5px;
+}
+
+
+/*==============
+ Details Section 
+ ===============*/
+.customize-section{
+	background:#f2f2f2;
+	padding: 75px 0;
+}
+.customize-section h6{
+	padding: 30px 0 0;
+	color: #008ed6;
+	font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+} 
+.customize-section h2{
+	color: #1a1a1a;
+	font-size: 36px;
+    font-weight: 600;
+}
+.customize-section p{
+	color: #999999;
+    font-size: 19px;
+}
+/*==============
+ Slider Section 
+ ===============*/
+.slider-section{
+	background:url(../img/slider-section-1.png) no-repeat center top;
+	background-size: cover;
+	position: relative;
+	padding: 75px 0;
+	z-index: 1;
+}
+.slider-section::after{
+	content: "";
+	position: absolute;
+	background:rgba(86,87,91,.35);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.slider-section h6{
+	text-align: center;
+	color: #008ed6;
+	font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.slider-section h2{
+	text-align: center;
+	color: #fff;
+	font-size: 36px;
+    font-weight: 600;
+}
+/*Slider Area*/
+.slider-area{
+	padding: 50px 0 0;
+}
+.slider-area p{
+	color: #fff;
+    font-size: 23px;
+}
+.slider-area img{
+	width: 85px;
+}
+
+.slider-area h6{
+	text-align: left;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 400;    
+}
+.slider-area h6 span{
+	display: block;
+    font-weight: 600;
+}
+.owl-theme .owl-dots .owl-dot span {
+	width: 7px;
+    height: 7px;
+    background: none;
+    transition: opacity .2s ease;
+    border-radius: 50%;
+    border: 1px solid #eee;
+}
+.owl-theme .owl-dots 
+.owl-dot.active span{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    border: none;
+}
+.owl-theme .owl-nav {
+    display: none;
+}
+.owl-theme .owl-dots, 
+.owl-theme .owl-nav {
+    margin-top: 85px;
+}  
+
+
+/*==============
+ Download Section 
+===============*/
+.download-section{
+ 	padding: 35px 0;
+ 	background: #15141a;
+ }
+.btn-dwonload-2{
+	background: none;
+    border: 1px solid #47464d;
+    padding: 10px 23px;
+    text-transform: uppercase;
+    color: #fff;
+    word-spacing: 2px;
+    border-radius: 4px;
+    margin: 0 10px;
+    float: right;
+    transition: 0.5s ease-in-out;
+}
+.btn-dwonload-2:hover{
+	background:#008ed6;
+	color: #fff;
+}
+.download-section h2{
+	color: #fff;
+    font-size: 33px;
+    font-weight: 200;
+}
+.download-section h2 span{
+    font-size: 35px;
+    font-weight: 600;	
+}
+
+
+/*==============
+ Price Section 
+===============*/
+.price-section{
+	padding: 75px 0;
+}
+.price-section h6{
+	text-align: center;
+	color: #008ed6;
+	font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.price-section h2{
+	text-align: center;
+	color: #1a1a1a;
+	font-size: 36px;
+    font-weight: 600;
+}
+/*Price Area*/
+.price-area{
+	padding: 50px 0 0;
+}
+.item-header h4{
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #1a1a1a;
+    font-weight: 700;
+    padding: 8px;
+    text-align: center;
+    margin: 0;
+    border-left: 2px solid #e0e0e0;
+    border-top: 2px solid #e0e0e0;
+    border-right: 2px solid #e0e0e0;
+}
+.price-item:hover .item-header h4{
+	color: #008ed6;
+}
+.item-body{
+	text-align: center;
+	margin: 0;
+    padding: 15px 0;
+	border-left: 2px solid #e0e0e0;
+    border-top: 2px solid #e0e0e0;
+    border-right: 2px solid #e0e0e0;
+    transition: 0.4s ease-in-out;	
+}
+.item-body h2{
+	font-size: 70px;
+	margin: 0;
+	color: #1a1a1a;
+}
+.price-item:hover .item-body h2{
+	color: #fff;
+}
+.item-body h2 sup{
+	font-size: 35px;
+}
+.item-body p{
+	color: #b4b4b4;
+	margin: 0;
+    line-height: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;  
+}
+.price-item:hover .item-body p{
+	color: #fff;
+}
+.price-item:hover .item-body{
+	background: #008ed6;
+}
+.item-footer{
+	border: 2px solid #e0e0e0;
+}
+.item-footer p{
+    padding: 15px 23px;
+    text-align: center;
+    color: #b4b4b4;
+    font-size: 18px;
+}
+
+.item-footer p a{
+	color: #008ed6;
+}
+.btn-order{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 8px 20px;
+    border: 2px solid #e0e0e0;
+    background: transparent;
+    text-transform: uppercase;
+    color: #008ed6;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: 0.4s ease-in-out;
+}
+.price-item:hover .btn-order{
+	background: #008ed6;
+	color: #fff;
+}
+
+
+/*==============
+ Contact Section 
+===============*/
+.contact-section{
+	background: #ededed;
+	padding: 75px 0;
+
+}
+.contact-section h6{
+	text-align: center;
+	color: #008ed6;
+	font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.contact-section h2{
+	text-align: center;
+	color: #1a1a1a;
+	font-size: 36px;
+    font-weight: 600;
+}
+.contact-item{
+	text-align: center;
+	margin:50px 0;
+}
+.contact-item .fa{
+	font-size: 30px;
+    color: #008ed6;	
+}
+.contact-item p{
+    color: #b4b4b4;
+    font-size: 18px;
+    margin: 15px 0 0;
+}
+
+
+/*Form Area*/
+.form-area{
+	background: #000;
+	width: 100%;
+	height:auto;
+	padding: 30px;
+    position: relative;
+}
+.md-3{
+    margin: 20px 0;
+}
+.control-iteml{
+	background: transparent;
+    border: 1px solid #444348;
+    color: #fff;
+    padding: 10px;
+}
+.control-iteml:focus{
+	background: transparent;
+    box-shadow: none;
+    border: 1px solid #008ed6;
+    color: #fff;	
+}
+.form-control-message{
+	background: transparent;
+    border: 1px solid #444348;
+    color: #fff;
+    padding: 10px 10px 22px;
+}
+.form-control-message:focus{
+	background: transparent;
+    box-shadow: none;
+    border: 1px solid #008ed6;
+    color: #fff;	
+}
+.btn-send{
+    background: none;
+    border: 1px solid #47464d;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    color: #fff;
+    word-spacing: 2px;
+    border-radius: 4px;
+    float: right;
+    transition: 0.5s ease-in-out;
+}
+.btn-send:hover{
+	background:  #008ed6;	
+}
+
+
+/*==============
+ Location Section 
+===============*/
+.maps{
+	width: 100%;
+	height: 400px;
+    margin-top: -170px;
+}
+
+
+/*==============
+ Footer Section 
+===============*/
+footer{
+	background: #15141a;
+	padding: 25px 0;
+}
+footer ul{
+	text-align: center;
+}
+footer ul li{
+	display: inline;
+	padding: 0 15px;
+}
+footer ul li a .fa{
+	color: #444348;
+	font-size: 20px;
+	transition: 0.2s ease-in-out;
+}
+footer ul li a .fa:hover{
+	color: #008ed6;
+	transform: scale(1.1);
+}
+footer p{
+	text-align: center;
+	color: #444348;
+	font-size: 16px;
+    margin: 10px 0 0;
+}
+
+
+
+
+/*======================
+  Media Query For NoteBook
+  ======================*/
+@media (min-width:768px) and (max-width: 992px){
+
+    .navbar {margin: 10px 0; padding-top: 0;}
+    .logo { margin-top:0;}
+    .navbar-light .navbar-nav .nav-link { text-align: center;}
+    .navbar-light .navbar-toggler { border-color: #fff; color: #fff;}
+    button:focus:not(:focus-visible) { box-shadow: none;}
+    header h1 { font-size: 33px;}
+    header p {  padding: 5px 0;  font-size: 17px;}
+    .btn-dwonload {  padding: 10px 12px; margin: 30px 20px 0px 0px;}
+    .hero-section, .details-section, .customize-section, .slider-section, .price-section, .contact-section { padding: 45px 0;}
+    .hero-section h6 {  margin: 0;}
+    .hero-section h2{ font-size: 33px; margin: 0;}
+    .hero-item {  padding: 35px 0;}
+    .hero-item .fa {  height: 60px; width: 60px;line-height: 58px;}
+    .hero-item h4 { padding: 5px 0 0; margin: 0;}
+    .hero-item p { font-size: 16px; line-height: 21px; margin: 0;}
+    .details-section h6, .customize-section h6, 
+    .slider-section h6, .price-section h6, .contact-section h6 { padding: 5px 0 0; margin: 0;}
+    .details-section h2, .customize-section h2, 
+    .slider-section h2, .price-section h2, .contact-section h2 {font-size: 33px; margin: 0;line-height: 30px;}
+    .details-section p, .customize-section p {  font-size: 16px;}
+    .customize-section img{margin-top: 40px;} 
+    .slider-area, .price-area {  padding: 25px 0 0;}
+    .slider-area p { font-size: 17px;}
+    .slider-area h6 span { font-size: 15px;}
+    .slider-area h6 {  margin-top: -7px;}
+    .owl-theme .owl-dots, .owl-theme .owl-nav { margin-top: 30px;}
+    .download-section h2 span { font-size: 32px; display: block;}
+    .download-section h2 {  font-size: 30px;}
+    .btn-dwonload-2 { padding: 9px 9px; margin: 18px 4px 0 0;}
+    .item-header h4 { font-size: 20px;}
+    .item-body { padding: 5px 0;}
+    .item-body h2 { font-size: 60px; line-height: normal;}
+    .item-body p { font-size: 16px;}
+    .item-footer p { padding: 5px 2px; font-size: 16px;}
+    .btn-order { margin-bottom: 20px; padding: 8px 10px;}
+    .contact-item {  margin: 25px 0;}
+    .contact-item p { font-size: 16px; margin: 5px 0 0;}
+    .form-area {  padding: 10px;}
+    .btn-send { padding: 10px;}
+    .maps {  height: 280px; margin-top: -100px;}
+    footer ul li {  padding: 0 10px;}
+
+}
+
+
+
+/*======================
+  Media Query For teblet
+  ======================*/
+@media (min-width:577px) and (max-width: 768px){
+    .navbar {margin: 10px 0; padding-top: 0;}
+    .logo { margin-top:0;}
+    .navbar-light .navbar-nav .nav-link { text-align: center;}
+    .navbar-light .navbar-toggler { border-color: #fff; color: #fff;}
+    button:focus:not(:focus-visible) { box-shadow: none;}
+    .header-item{text-align: center;}
+    header h6 { padding-top: 10px; text-align: center;}
+    header h1 { font-size: 38px; text-align: center;}
+    header p { padding: 10px 0; text-align: center; font-size: 16px;}
+    .btn-dwonload{padding: 10px 20px; margin: 10px 5px; font-size: 13px;}
+    .hero-section { padding: 30px 0 0;}
+    .hero-section h6 { margin: 0;}
+    .hero-section h2 { font-size: 33px;  margin: 0;}
+    .hero-item { padding: 15px 0 0;}
+    .hero-item .fa {  height: 60px; width: 60px; line-height: 57px;}
+    .hero-item h4 { margin: 0; padding: 5px 0;}
+    .hero-item p { font-size: 16px; line-height: 20px; padding: 0 45px;}
+    .details-section { padding: 30px 0; text-align: center;}
+    .details-section h6 { margin: 0;}
+    .details-section h2 { font-size: 33px; margin: 0;}
+    .details-section p { font-size: 16px; line-height: 22px;}
+    .details-section ul { padding: 0 0 10px;}
+    .customize-section { padding: 30px 0; text-align: center;}
+    .customize-section h6,.slider-section h6, .price-section h6, .contact-section  h6 { padding: 0px 0 0;  margin: 0;}
+    .customize-section h2,.slider-section h2, .price-section h2, .contact-section  h2 { font-size: 33px; margin: 0;}
+    .customize-section p {  font-size: 16px; line-height: 22px; }
+    .slider-section {  padding: 30px 0; text-align: center;}
+    .slider-area { padding: 10px 0 0;}
+    .slider-area p { font-size: 18px;}
+    .owl-carousel .owl-item img{ width: 75px; margin: 0 auto; }
+    .slider-area h6 { text-align: center; font-size: 17px;}
+    .owl-theme .owl-dots, .owl-theme .owl-nav { margin-top: 15px;}
+    .download-section {  padding: 15px 0; text-align: center;}
+    .download-section h2 { font-size: 22px;}
+    .download-section h2 span {display: block;}
+    .btn-dwonload-2 {padding: 10px 20px; margin: 10px 5px; font-size: 13px; float: none;}
+    .price-section, .contact-section  {  padding: 30px 0;}
+    .price-item{margin-bottom: 25px}
+    .price-area {  padding: 20px 0 0; width: 300px; margin: 0 auto;}
+    .item-body h2 {  font-size: 70px;}
+    .contact-item {  margin: 20px 0;}
+    .contact-item p {  font-size: 16px;  margin: 3px 0 15px;}
+    .form-area {   padding: 10px;    margin: 0 auto;}
+    .btn-send { float: left; padding: 10px 20px; font-size: 13px;}
+    .maps { height: 250px; margin-top: -25px;}
+    footer {  padding: 15px 0;}
+    footer ul li {  padding: 0 5px;}
+    footer p { font-size: 14px; margin: 0;}
+}
+
+
+
+/*======================
+  Media Query For Mobile
+  ======================*/
+@media (min-width:320px) and (max-width: 576px){
+
+    .navbar {margin: 10px 0; padding-top: 0;}
+    .logo { margin-top:0;}
+    .navbar-light .navbar-nav .nav-link { text-align: center;}
+    .navbar-light .navbar-toggler { border-color: #fff; color: #fff;}
+    button:focus:not(:focus-visible) { box-shadow: none;}
+    .header-item{text-align: center;}
+    header h6 { padding-top: 10px; text-align: center;}
+    header h1 { font-size: 35px; text-align: center;}
+    header p { padding: 10px 0; text-align: center; font-size: 16px;}
+    .btn-dwonload{padding: 8px 9px; margin: 10px 5px; font-size: 13px;}
+    .hero-section { padding: 30px 0 0;}
+    .hero-section h6 { margin: 0;}
+    .hero-section h2 { font-size: 26px;  margin: 0;}
+    .hero-item { padding: 15px 0 0;}
+    .hero-item .fa {  height: 55px; width: 55px; line-height: 52px; font-size: 25px;}
+    .hero-item h4 { margin: 0; padding: 5px 0 0;}
+    .hero-item p { font-size: 16px; line-height: 20px;}
+    .details-section { padding: 30px 0; text-align: center;}
+    .details-section h6 { margin: 0;}
+    .details-section h2 { font-size: 26px; margin: 0;}
+    .details-section p { font-size: 16px; line-height: 22px;}
+    .details-section ul { padding: 0 0 8px;}
+    .customize-section { padding: 30px 0; text-align: center;}
+    .customize-section h6,.slider-section h6, .price-section h6, .contact-section  h6 { padding: 0px 0 0;  margin: 0;}
+    .customize-section h2,.slider-section h2, .price-section h2, .contact-section  h2 { font-size: 26px; margin: 0;}
+    .customize-section p {  font-size: 16px; line-height: 22px; }
+    .slider-section {  padding: 30px 0; text-align: center;}
+    .slider-area { padding: 10px 0 0;}
+    .slider-area p { font-size: 18px;}
+    .owl-carousel .owl-item img{ width: 75px; margin: 0 auto; }
+    .slider-area h6 { text-align: center; font-size: 17px;}
+    .owl-theme .owl-dots, .owl-theme .owl-nav { margin-top: 15px;}
+    .download-section {  padding: 15px 0; text-align: center;}
+    .download-section h2 { font-size: 22px;}
+    .download-section h2 span { font-size: 30px; display: block;}
+    .btn-dwonload-2 {padding: 8px 9px; margin: 10px 5px; font-size: 13px; float: none;}
+    .price-section, .contact-section  {  padding: 30px 0;}
+    .price-item{margin-bottom: 25px}
+    .price-area {  padding: 20px 0 0;}
+    .item-body h2 {  font-size: 70px;}
+    .contact-item {  margin: 20px 0;}
+    .contact-item p {  font-size: 16px;  margin: 3px 0 15px;}
+    .form-area {   padding: 10px;    margin: 0 auto;}
+    .btn-send { float: none; margin: 0 auto; display: block; padding: 8px 9px; font-size: 13px;}
+    .maps { height: 200px; margin-top: 0;}
+    footer {  padding: 15px 0;}
+    footer ul li {  padding: 0 5px;}
+    footer p { font-size: 14px; margin: 0;}
+    
+}
